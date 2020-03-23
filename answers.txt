@@ -1,6 +1,0 @@
-1. Would it be possible using the concatenated predicate to get any pair of consecutive numbers from a list? If so, How would you have to use the concatenated predicate to get it?
-
-pairs([_],[]).
-pairs([A,B|T],[[A,B]|T1]):-
-    pairs([B|T],T1).
-    
