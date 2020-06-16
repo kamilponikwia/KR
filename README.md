@@ -14,7 +14,7 @@ Knowledge representation presents information from the real world in a way that 
 
 <p align="center"><img width="460" height="300" src="images/2.png"></p>
 
-###### Cycle of Knowledge Representation in AI
+### Cycle of Knowledge Representation in AI
 Artificial intelligence systems consist of various elements to best express their behaviour, we include them;
 1.	Perception
 2.	Learning
@@ -34,18 +34,18 @@ The difference between knowledge and intelligence is key here. We can say that k
 In turn intelligence is the ability to complicate this knowledge in some sense. For example, if someone does not have knowledge about a given topic, it does not mean that he/she cannot put his/her intelligence into solving the problem.
 
 ## Techniques of Knowledge Representation in AI
-We distinguish 4 techniques used in knowledge representation, namely;
+###### We distinguish 4 techniques used in knowledge representation, namely;
 
 <p align="center"><img width="460" height="300" src="images/3.png"></p>
  
 Now let's take a little more detailed look at them.
 
-###### Logical Representation 
+### Logical Representation 
 A very common method of knowledge representation is the representation of logic-based models. Classical logic is the basic tool that allows for some automation of the process of applying and acquiring knowledge. However, in specific applications, where an expert system is required to be flexible and resistant to uncertain input data, this system has in many cases proved to be less useful in comparison with systems based on other methods.
 From a logic point of view, the state's knowledge of a set of rules and facts. Adding a tongue, you get theories, that is, some codified, ordered image of a certain class of objects presented with the help of words, formulas, rules and grammar of arbitrarily adopted tongue. It should be stressed that the language is an abstract structure consisting of a dictionary and grammar, allowing it to operate on symbols. It is a syntax of a given system.
 Semantics, in turn, gives meaning to expressions created according to the grammar. By adding a deductive structure to the language, one probably obtains a conclusion mechanism that enables the theory to function productively. This allows us to anticipate future states of the system on the basis of observations and facts and to create certain generalizations on the basis of the observed correctness.
 
-###### Semantic Network Representation
+### Semantic Network Representation
 A semantic network is a generalised concept of a statement network, which assumes that the nodes correspond to complete descriptions of concepts or objects and are not just statements.
 There is a kind of logic where relations between objects are presented as a drawing.
 In semantic networks, the inference corresponds to "moving" in the graph. Different conclusions are drawn from the network inspection. So, it's like a deduction mechanism.
@@ -57,7 +57,7 @@ The model of knowledge representation through semantic networks also has its dis
 There may also be some deductive traps in the semantic network. In the example we can deduce: Tom is being examined. This statement does not have to be true. The truthfulness of this statement can occur when Tom is in the laboratory.
 The semantic network method is often used in systems of analysis and understanding of natural language. This is due to the clarity with which intricate syntactic structures of language can be represented with this representation. Semantic networks are also useful for translation from one language into another and for learning support.
 
-###### Frame Representation
+### Frame Representation
 Frames enable declarative and procedural representation of knowledge.
 They provide an opportunity to organise the knowledge base in such a way that the rules representing the knowledge of a given field are clearly separated from the rules necessary for the proper functioning of the expert system.
 They provide the opportunity to group information on a selected piece of knowledge in a single framework, which simplifies subsequent verification.
@@ -67,11 +67,12 @@ Frames are similar to the representation of knowledge by the statements: <object
 Every frame, cage and facet must have a name. There must not be two frames with the same name in a frame, nor must there be two facets with the same name in a frame. 
 However, different frames may have the same type of frames, the same applies to facets. They can be numbers, texts, pictograms or consecutive frames. The actual data, written directly into the frame, is called the frame value, which is written into a VALUE facet.
 In general, each cage is assigned a specific set of facets in which, for example, the conditions for recognising the value of an attribute as a limit value, the procedure for obtaining the value, etc., can be stored.
-Overview of the framework;
+
+###### Overview of the framework;
   
 <p align="center"><img width="460" height="300" src="images/5.png"></p>
 
-###### Basic characteristics of the framework
+### Basic characteristics of the framework
 
 - Frame is a data structure that describes a certain object or class of objects and offers access to full information about that object.
 - Frame is a set of cages. All information about the object, contained in the frame, is divided into parts which are values of frames.
@@ -83,14 +84,14 @@ Overview of the framework;
 
 Each frame can contain multiple facet types, each of which is either a certain frame value or a certain function
 
-###### Production rules
+## Production rules
 Among the various methods of knowledge representation, rule-based methods play an important role. It can be noted that a set of statements is not sufficient to describe a field of knowledge. There is still a need for rules, whose general form can be expressed as:
 
 IF <condition> THEN <conclusion>
 or
 IF <condition> THEN <action>
 
-Example:
+###### Example:
 IF temp = high THEN flu = yes
 IF temp = normal THEN flu = no
 
