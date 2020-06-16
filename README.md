@@ -1,8 +1,9 @@
 # KR
 Knowledge representation 
 
-![](images/1.jpg)
-
+<p align="center">
+  <img width="460" height="300" src="images/1.jpg">
+</p>
 Not from now on we know that the human mind can be irreplaceable. It is necessary for us to acquire knowledge, to analyse it, to understand it.  What is more, it allows us to make decisions in everyday situations also by understanding the subject and quickly draw conclusions, as a result of which we make decisions whether they are always correct, everyone can judge for themselves. 
 While we sometimes have our own doubts as to what decision should be taken in certain situations, how is it possible that machines face a similar situation? 
 I would like to draw attention to the representations of knowledge in artificial intelligence, but above all to how artificial intelligence affects machines and allows them to function like humans, making various decisions and facing everyday challenges.
