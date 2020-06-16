@@ -45,7 +45,7 @@ In turn intelligence is the ability to complicate this knowledge in some sense. 
 
 <p align="center"><img width="460" height="300" src="images/3.png"></p>
  
-Now let's take a little more detailed look at them.
+###### Now let's take a little more detailed look at them.
 
 ### Logical Representation 
 A very common method of knowledge representation is the representation of logic-based models. Classical logic is the basic tool that allows for some automation of the process of applying and acquiring knowledge. However, in specific applications, where an expert system is required to be flexible and resistant to uncertain input data, this system has in many cases proved to be less useful in comparison with systems based on other methods.
@@ -108,7 +108,7 @@ Each frame can contain multiple facet types, each of which is either a certain f
 Among the various methods of knowledge representation, rule-based methods play an important role. It can be noted that a set of statements is not sufficient to describe a field of knowledge. There is still a need for rules, whose general form can be expressed as:
 
 IF <condition> THEN <conclusion>
-or
+
 IF <condition> THEN <action>
 
 ###### Example:
@@ -121,6 +121,7 @@ The premise may contain a number of statements connected by logical functions. N
 
 
 Bibliography:
+
 [1] https://www.edureka.co/blog/knowledge-representation-in-ai/
 
 [2] https://www.javatpoint.com/knowledge-representation-in-ai
