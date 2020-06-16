@@ -113,7 +113,8 @@ In general, each cage is assigned a specific set of facets in which, for example
 <p align="center"><img width="460" height="300" src="images/5.png"></p>
 
 
-### Basic characteristics of the framework
+#### Basic characteristics of the framework
+
 - Frame is a data structure that describes a certain object or class of objects and offers access to full information about that object.
 - Frame is a set of cages. All information about the object, contained in the frame, is divided into parts which are values of frames.
 - Each frame corresponds to a certain property of a given object and is of a specific type, i.e. it has a defined domain of values that can be placed in it.
@@ -125,7 +126,7 @@ In general, each cage is assigned a specific set of facets in which, for example
 Each frame can contain multiple facet types, each of which is either a certain frame value or a certain function
 
 
-## Production rules
+### Production rules
 Among the various methods of knowledge representation, rule-based methods play an important role. It can be noted that a set of statements is not sufficient to describe a field of knowledge. There is still a need for rules, whose general form can be expressed as:
 
 IF condition THEN conclusion
