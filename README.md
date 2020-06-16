@@ -17,7 +17,7 @@ Knowledge representation presents information from the real world in a way that 
 <p align="center"><img width="460" height="300" src="images/2.png"></p>
 
 ### Cycle of Knowledge Representation in AI
-Artificial intelligence systems consist of various elements to best express their behaviour, we include them;
+###### Artificial intelligence systems consist of various elements to best express their behaviour, we include them
 1.	Perception
 2.	Learning
 3.	Knowledge Representation & Reasoning
@@ -107,9 +107,9 @@ Each frame can contain multiple facet types, each of which is either a certain f
 ## Production rules
 Among the various methods of knowledge representation, rule-based methods play an important role. It can be noted that a set of statements is not sufficient to describe a field of knowledge. There is still a need for rules, whose general form can be expressed as:
 
-IF <condition> THEN <conclusion>
+IF condition THEN conclusion
 
-IF <condition> THEN <action>
+IF condition THEN action
 
 ###### Example:
 IF temp = high THEN flu = yes
@@ -120,7 +120,7 @@ The premise may contain a number of statements connected by logical functions. N
 
 
 
-Bibliography:
+###### Bibliography:
 
 [1] https://www.edureka.co/blog/knowledge-representation-in-ai/
 
